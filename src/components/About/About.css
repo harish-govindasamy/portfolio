@@ -109,6 +109,38 @@
   transition: 0.5s;
 }
 
+/* ...existing code... */
+
+@media (max-width: 1024px) {
+  .about {
+    margin: 60px 100px;
+  }
+
+  .about-title h1 {
+    font-size: 60px;
+  }
+
+  .about-sections {
+    gap: 60px;
+  }
+
+  .about-para {
+    font-size: 22px;
+  }
+
+  .about-skill p {
+    font-size: 22px;
+  }
+
+  .about-achievement h1 {
+    font-size: 50px;
+  }
+
+  .about-achievement p {
+    font-size: 20px;
+  }
+}
+
 @media (max-width: 768px) {
   .about {
     gap: 80px;
@@ -138,10 +170,12 @@
     font-size: 18px;
     line-height: 32px;
   }
+
   .about-skill {
     gap: 20px;
     align-items: center;
   }
+
   .about-skill p {
     font-size: 20px;
   }
@@ -149,6 +183,7 @@
   .about-skill hr {
     height: 6px;
   }
+
   .about-achievements {
     justify-content: space-between;
   }
@@ -156,6 +191,7 @@
   .about-achievement {
     gap: 10px;
   }
+
   .about-achievement h1 {
     font-size: 34px;
     font-weight: 700;
@@ -164,5 +200,44 @@
   .about-achievement p {
     font-size: 16px;
     text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    gap: 30px;
+    margin: 30px 20px;
+  }
+
+  .about-title h1 {
+    font-size: 40px;
+  }
+
+  .about-title img {
+    width: 100px;
+  }
+
+  .about-sections {
+    gap: 30px;
+  }
+
+  .about-para {
+    font-size: 16px;
+  }
+
+  .about-skill p {
+    font-size: 18px;
+  }
+
+  .about-skill hr {
+    height: 4px;
+  }
+
+  .about-achievement h1 {
+    font-size: 28px;
+  }
+
+  .about-achievement p {
+    font-size: 14px;
   }
 }
