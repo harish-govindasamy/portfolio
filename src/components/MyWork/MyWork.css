@@ -47,6 +47,8 @@
 
 .mywork-showmore {
   display: flex;
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
   gap: 15px;
   border-radius: 50px;
   border: 2px solid white;
