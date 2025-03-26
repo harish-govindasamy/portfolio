@@ -98,6 +98,10 @@
   }
 } */
 /* ...existing code... */
+a {
+  text-decoration: none;
+  color: white;
+}
 
 @media (max-width: 1024px) {
   .hero img {
