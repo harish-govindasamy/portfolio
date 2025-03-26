@@ -16,13 +16,13 @@ const About = () => {
         </div>
         <div className="about-right">
           <div className="about-para">
-            <p>
-              I’m a Frontend Developer from Tamil Nadu, India, with a deep
-              passion for crafting beautiful and functional web experiences.
-              Ever since I started coding, I’ve been fascinated by how design
-              and technology come together to create seamless digital
-              interactions.
-            </p>
+              <p>
+                I’m a Frontend Developer from Tamil Nadu, India, with a deep
+                passion for crafting beautiful and functional web experiences.
+                Ever since I started coding, I’ve been fascinated by how design
+                and technology come together to create seamless digital
+                interactions.
+              </p>
             <p>
               I love working on projects that challenge me to think creatively
               and push boundaries. Whether it's designing a smooth, responsive
